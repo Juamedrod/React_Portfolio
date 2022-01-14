@@ -1,13 +1,15 @@
 import './App.css';
-import Myheader from './components/header/Myheader';
+import Marker from './components/Marker';
 import PhotoCard from './components/PhotoCard';
 
 function App() {
   return (
     <div className="App">
-      {/* <Myheader /> */}
       <div className='containerPhoto'>
         <PhotoCard image="https://avatars.githubusercontent.com/u/53428865?v=4" />
+      </div>
+      <div className='fixed-bottom w-100'>
+        <Marker />
       </div>
     </div>
   );
