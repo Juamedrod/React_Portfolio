@@ -1,6 +1,5 @@
 import './App.css';
-import Myheader from './components/myheader';
-
+import Myheader from './components/header/Myheader';
 
 function App() {
   return (
