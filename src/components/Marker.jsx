@@ -6,3 +6,5 @@ const Marker = (props) => {
     </div>
 }
 export default Marker;
+
+//Vertical pointer to show success cases.
